@@ -7,6 +7,6 @@ services:
       - .:/app
     ports:
       - 3000:3000
-    image: app:myappimage
+    image: app:myappimage16.14.2.alpine
     container_name: myapp
     command: npm start
