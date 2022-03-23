@@ -4,13 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # docker commands:
 
-docker-compose bulid
+docker-compose build
 docker-compose up
 OR
 docker-compose up -d
 docker-compose down
 
 # nginx
+
 docker-compose -f docker-compose-nginx.yml build
 docker-compose -f docker-compose-nginx.yml up
 docker-compose -f docker-compose-nginx.yml down
